@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <title>
+      Flask日記アプリ
+    </title>
+  </head>
+  <body>
+    <h1>日記一覧</h1>
+    <ul>
+        {% for title in titles %}
+        <li>{{ title }}</li>
+        {% endfor %}
+    </ul>
+  </body>
+</html>
